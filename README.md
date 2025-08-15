@@ -1,17 +1,25 @@
-# dictionary
+##  Dictionary – Mobile Dictionary App
 
-A new Flutter project.
+A cross-platform mobile app that provides **words, their meanings, and example sentences** instantly.  
+Built with a public dictionary API for real-time data, with **state management using `flutter_bloc`** and a **favorites feature** for quick access to saved words.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Tech Stack
+- Flutter
+- Dart
+- Dio (HTTP client)
+- flutter_bloc (State management)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Screenshots
+## Home Screen
+<img src="screenshots/home2.png" alt="Home Screen" width="200"/>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# dictionary
+## Favorites Screen
+<img src="screenshots/Favorites.png" alt="Home Screen" width="200"/>
+
+---
+
+## License
+
+This project is open source and available under the **MIT License** – see the [LICENSE](LICENSE) file for details.
