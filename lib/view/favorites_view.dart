@@ -33,7 +33,7 @@ class _FavoritePageState extends State<FavoritePage> {
       body: favorites.isEmpty
           ? Center(
         child: Text(
-          Strings.noFavporites,
+          Strings.noFavorites,
           style: GoogleFonts.cairo(),
         ),
       )
@@ -60,7 +60,7 @@ class _FavoritePageState extends State<FavoritePage> {
                         cubit.removeFromFavorites(wordData);
                       });
                       ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(content: Text(Strings.removedFromFavporites),
+                        SnackBar(content: Text(Strings.removedFromFavorites),
                         backgroundColor: MyColor.SoftRed,),
                       );
                     },

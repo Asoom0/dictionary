@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 children:[
                   TextSpan(
-                    text: Strings.hashPlus,
+                    text: Strings.wordAppBar,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.blue,
@@ -149,7 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             if (state is SuccessState) {
                               cubit.addToFavorites(state);
                               ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(content: Text(Strings.addedToFavporites),
+                                SnackBar(content: Text(Strings.addedToFavorites),
                                 backgroundColor: MyColor.mintGreen),
                               );
                             }
@@ -158,7 +158,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               backgroundColor: MyColor.lightBlue,
                               //foregroundColor: MyColor.lightBlue,
                             ),
-                            child: Text(Strings.addToFavporites,
+                            child: Text(Strings.addToFavorites,
                               style: GoogleFonts.cairo(
                                 color: MyColor.softText,
                                 fontSize: Sizes.s15,
