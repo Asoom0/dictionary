@@ -1,7 +1,8 @@
 ##  Dictionary – Mobile Dictionary App
 
-A cross-platform mobile app that provides **words, their meanings, and example sentences** instantly.  
-Built with a public dictionary API for real-time data, with **state management using `flutter_bloc`** and a **favorites feature** for quick access to saved words.
+A cross-platform dictionary app for Android and iOS that provides **instant word definitions, meanings, and example sentences**.  
+Features **real-time data fetching** via a public dictionary API, **state management with `flutter_bloc`**, and a **favorites feature** for quick access to saved words.
+
 
 
 
